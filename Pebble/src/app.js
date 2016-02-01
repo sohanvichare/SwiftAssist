@@ -283,7 +283,7 @@ X.prototype.Ze=function(a,b){D("Firebase.resetPassword",1,2,arguments.length);sg
 
 
 var UI = require('ui');
-var myFirebaseRef = new Firebase("https://swiftassist.firebaseio.com/emergency");
+var myFirebaseRef = new Firebase("HIDDEN_FOR_SECURITY");
 console.log(myFirebaseRef);
 var emergencyTypes = [{
       title: "inhaler",
