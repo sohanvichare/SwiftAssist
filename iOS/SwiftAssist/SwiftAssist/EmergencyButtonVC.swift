@@ -27,8 +27,8 @@ class EmergencyButtonVC: UIViewController, CLLocationManagerDelegate {
     
     let defaults = NSUserDefaults.standardUserDefaults()
     var locationManager: CLLocationManager!
-    let ref = Firebase(url: "https://swiftassist.firebaseio.com")
-    let emerRef = Firebase(url: "https://swiftassist.firebaseio.com/emergency")
+    let ref = Firebase(url: "HIDDEN_FOR_SECURITY")
+    let emerRef = Firebase(url: "HIDDEN_FOR_SECURITY")
     var backgroundTask: UIBackgroundTaskIdentifier = UIBackgroundTaskInvalid
 
     var bl = false;
