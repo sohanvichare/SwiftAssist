@@ -15,7 +15,7 @@ class SignUpVC: UIViewController {
     
     let defaults = NSUserDefaults.standardUserDefaults()
     
-    var ref = Firebase(url:"https://swiftassist.firebaseio.com")
+    var ref = Firebase(url:"HIDDEN_FOR_SECURITY")
     
     @IBOutlet weak var uname: UITextField!
     
